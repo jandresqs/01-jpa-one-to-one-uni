@@ -27,19 +27,19 @@ public class CruddemoApplication {
 	private void createInstructor(AppDAO appDAO) {
 		/*
 		Instructor instructor = new Instructor(
-				"Nata",
-				"Tovar",
-				"ntcantor@luv2code.com");
+				"Angel",
+				"Roa",
+				"angel@luv2code.com");
 
-		InstructorDetail instructorDetail = new InstructorDetail("http://ntcantor.com/youtube", "Cooking");
+		InstructorDetail instructorDetail = new InstructorDetail("http://angelroa.com/youtube", "Reading");
 		*/
 
 		Instructor instructor = new Instructor(
-				"Judith",
-				"Sanabria",
-				"jsf@luv2code.com");
+				"John",
+				"Doe",
+				"johndoe@luv2code.com");
 
-		InstructorDetail instructorDetail = new InstructorDetail("http://jsf.com/youtube", "Teaching");
+		InstructorDetail instructorDetail = new InstructorDetail("http://johndoe.com/youtube", "Searching");
 
 		instructor.setInstructorDetail(instructorDetail); // Associate the independent objects
 
